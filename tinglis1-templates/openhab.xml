@@ -11,12 +11,12 @@
     <Mode>host</Mode>
     <Publish>
       <Port>
-        <HostPort>9080</HostPort>
+        <HostPort>8080</HostPort>
         <ContainerPort>9080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>9443</HostPort>
+        <HostPort>8443</HostPort>
         <ContainerPort>9443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
