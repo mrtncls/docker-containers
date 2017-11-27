@@ -12,12 +12,12 @@
     <Publish>
       <Port>
         <HostPort>8080</HostPort>
-        <ContainerPort>9080</ContainerPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
         <HostPort>8443</HostPort>
-        <ContainerPort>9443</ContainerPort>
+        <ContainerPort>8443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
