@@ -3,7 +3,7 @@
   <Name>openhab-online</Name>
   <Description>openHAB - a vendor and technology agnostic open source automation software for your home.</Description>
   <Registry>https://hub.docker.com/r/openhab/openhab/</Registry>
-  <Repository>openhab/openhab:2.1.0-amd64-debian</Repository>
+  <Repository>openhab/openhab:2.2.0-snapshot-amd64-debian</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
@@ -45,7 +45,7 @@
     </Volume>
   </Data>
   <Version></Version>
-  <WebUI>http://[IP]:9080/</WebUI>
+  <WebUI>http://[IP]:8080/</WebUI>
   <Banner>https://raw.githubusercontent.com/tinglis1/docker-containers/master/openhab/openhab_banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/tinglis1/docker-containers/master/openhab/openhab-logo-square.png</Icon>
   <Beta>False</Beta>
